@@ -1,0 +1,62 @@
+﻿[
+    {
+        "Area": "Baghajatin",
+        "People": [
+            {
+                "Name": "Prabal Choudhury",
+                "Contact": "9830083350"
+            },
+            {
+                "Name": "Unknown",
+                "Contact": "8017711721"
+            },
+            {
+                "Name": "Unknown",
+                "Contact": "9064464248"
+            }
+        ]
+    },
+    {
+        "Area": "Baguihati",
+        "People": [
+            {
+                "Name": "Unknown",
+                "Contact": "9831514085"
+            },
+            {
+                "Name": "Unknown",
+                "Contact": "9830724094"
+            },
+            {
+                "Name": "Unknown",
+                "Contact": "9674371978"
+            },
+            {
+                "Name": "Unknown",
+                "Contact": "9883235935"
+            },
+            {
+                "Name": "Unknown",
+                "Contact": "8697310965"
+            }
+        ]
+    },
+    {
+        "Area": "Bally / Belur",
+        "People": [
+            {
+                "Name": "Saptarshi Baishya",
+                "Contact": "9038585683"
+            }
+        ]
+    },
+    {
+        "Area": "Ballygunge",
+        "People": [
+            {
+                "Name": "Arpan",
+                "Contact": "9833889188"
+            }
+        ]
+    }
+]

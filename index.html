@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code 19</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+    <img class="header-img" src="header.jpg" alt="hellomovies site banner"
+        style="width: 100%; height: 25%; object-fit: fill;">
+    <header id="headbar">
+        <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand"><img src="logo.jpeg" alt="code19-logo" height="40px" width="150px"></a>
+                <div id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" onclick="upload()" aria-current="page" href="#">Add
+                                Supplier
+                                Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+        <div id="alertbar" class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>Are you a Oxygen Supplier?</strong> Or, <strong>Do you have contact of an Oxygen
+                Supplier?</strong> Please provide details by <a onclick="upload()" href="#">CLICKING
+                HERE</a>
+            <button type="button" style="border: none; background-color: #ffeeba;" class="btn-close"
+                data-bs-dismiss="alert" aria-label="Close"><i class="fas fa-times"></i></button>
+        </div>
+    </header>
+    <div id="d-upld"></div>
+    <div id="content" class="gallery"></div>
+
+    <footer>
+        <div class="copyright">
+            <a href="https://instagram.com/webdev.slg">Developed by Soumavo Dey @Code19</a>
+        </div>
+        <div class="end">
+            <a href="">
+                <p>About Us</p>
+            </a>
+            <a href="">
+                <p>Contact Us</p>
+            </a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+    <script src="javascript.js"></script>
+</body>
+
+</html>
